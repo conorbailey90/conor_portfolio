@@ -1,0 +1,17 @@
+{
+  "name": "conors_main_website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://conorbailey90.github.io/conor_portfolio",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Conor Bailey",
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^2.0.1",
+    "node-sass": "^4.11.0"
+  }
+}
