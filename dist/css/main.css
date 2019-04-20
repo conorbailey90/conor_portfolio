@@ -248,6 +248,8 @@ footer {
     height: 100vh;
     position: fixed;
     top: -100vh;
+    left: 0;
+    bottom: 0;
     background-color: black;
     border-bottom-right-radius: 50%;
     border-bottom-left-radius: 50%;
