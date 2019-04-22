@@ -242,7 +242,7 @@ header {
   & :hover {
     background: $secondary-color;
     color: $primary-color;
-    border: 3px solid $tertiary-color;
+    border: 1px solid $tertiary-color;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
     margin-bottom: 10rem;
   }
@@ -289,13 +289,13 @@ footer {
 
 @keyframes pulse {
   0% {
-    box-shadow: 0 0 0 0 rgba(0, 112, 204, 0.99);
+    box-shadow: 0 0 0 0 rgba(233, 113, 1, 0.99);
   }
   70% {
-    box-shadow: 0 0 0 2rem rgba(0, 112, 204, 0);
+    box-shadow: 0 0 0 2rem rgba(233, 113, 1, 0);
   }
   100% {
-    box-shadow: 0 0 0 0 rgba(0, 112, 204, 0);
+    box-shadow: 0 0 0 0 rgba(233, 113, 1, 0);
   }
 }
 
