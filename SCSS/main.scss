@@ -57,7 +57,7 @@ section {
   background-color: darken($primary-color, 0);
   width: 100%;
   height: 100vh;
-  opacity: 0.5;
+  opacity: 0.9;
   z-index: 0;
 }
 
@@ -128,6 +128,7 @@ header {
   top: 10vh;
   margin-left: 5rem;
   font-size: 2rem;
+  color: $secondary-color;
 }
 .about img {
   width: 250px;
@@ -148,6 +149,7 @@ header {
   padding: 1.5rem;
   text-align: center;
   background-color: darken($primary-color, 9);
+  color: $secondary-color;
 
   & p {
     text-align: justify;
@@ -169,12 +171,14 @@ header {
   top: 10vh;
   margin-left: 5rem;
   font-size: 2rem;
+  color: $secondary-color;
 }
 
 .subheader {
   position: relative;
   top: 11vh;
   margin-left: 5rem;
+  color: $secondary-color;
 }
 
 .releases a img {
@@ -189,6 +193,7 @@ header {
   text-align: center;
   height: 28rem;
   background-color: darken($primary-color, 15);
+  color: $secondary-color;
 }
 
 .releases {
@@ -205,6 +210,7 @@ header {
   position: relative;
   top: 8vh;
   text-align: center;
+  color: $secondary-color;
 }
 
 .contact h5 {
@@ -219,6 +225,7 @@ header {
   margin-left: 50%;
   transform: translate(-50%);
   padding: 2.5rem;
+  color: $secondary-color;
 }
 
 .youtube-item {
@@ -229,6 +236,7 @@ header {
   // background-color: darken($primary-color, 9);
   grid-template-columns: 1fr;
   margin: 0 5rem 0 5rem;
+  color: $secondary-color;
 
   & h2 {
     margin-bottom: 10px;
@@ -255,7 +263,8 @@ footer {
   text-align: center;
   padding-top: 3vh;
   color: $primary-color;
-  background: $secondary-color;
+  background: darken($primary-color, 10);
+  color: $secondary-color;
 }
 
 .up {

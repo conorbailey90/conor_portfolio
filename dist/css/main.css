@@ -44,7 +44,7 @@ section {
   background-color: white;
   width: 100%;
   height: 100vh;
-  opacity: 0.5;
+  opacity: 0.9;
   z-index: 0; }
 
 header {
@@ -104,7 +104,8 @@ header {
   position: relative;
   top: 10vh;
   margin-left: 5rem;
-  font-size: 2rem; }
+  font-size: 2rem;
+  color: #000; }
 
 .about img {
   width: 250px;
@@ -123,7 +124,8 @@ header {
   margin: 1rem;
   padding: 1.5rem;
   text-align: center;
-  background-color: #e8e8e8; }
+  background-color: #e8e8e8;
+  color: #000; }
   .profile-item p {
     text-align: justify; }
 
@@ -137,12 +139,14 @@ header {
   position: relative;
   top: 10vh;
   margin-left: 5rem;
-  font-size: 2rem; }
+  font-size: 2rem;
+  color: #000; }
 
 .subheader {
   position: relative;
   top: 11vh;
-  margin-left: 5rem; }
+  margin-left: 5rem;
+  color: #000; }
 
 .releases a img {
   width: 250px;
@@ -154,7 +158,8 @@ header {
   margin: 0.5rem;
   text-align: center;
   height: 28rem;
-  background-color: #d9d9d9; }
+  background-color: #d9d9d9;
+  color: #000; }
 
 .releases {
   position: relative;
@@ -167,7 +172,8 @@ header {
 .contact h1 {
   position: relative;
   top: 8vh;
-  text-align: center; }
+  text-align: center;
+  color: #000; }
 
 .contact h5 {
   position: relative;
@@ -180,7 +186,8 @@ header {
   width: 35rem;
   margin-left: 50%;
   transform: translate(-50%);
-  padding: 2.5rem; }
+  padding: 2.5rem;
+  color: #000; }
 
 .youtube-item {
   position: relative;
@@ -188,7 +195,8 @@ header {
   text-align: center;
   align-content: center;
   grid-template-columns: 1fr;
-  margin: 0 5rem 0 5rem; }
+  margin: 0 5rem 0 5rem;
+  color: #000; }
   .youtube-item h2 {
     margin-bottom: 10px; }
 
@@ -209,7 +217,8 @@ footer {
   text-align: center;
   padding-top: 3vh;
   color: #fff;
-  background: #000; }
+  background: #e6e6e6;
+  color: #000; }
 
 .up {
   position: absolute;
